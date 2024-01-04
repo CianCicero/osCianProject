@@ -21,7 +21,7 @@ public class Account {
 
 // Return account prompt with delimiter
 public String toString() {
-    return name + "" + ppsNumber + ""+ email +"" + password + "" + address + "*" + initialBalance;
+    return name + "*" + ppsNumber + "*"+ email +"*" + password + "*" + address + "*" + initialBalance;
 }
 
 
